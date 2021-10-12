@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "529993764191",
+    "project_id": "ambulancesaoilorpath",
+    "storage_bucket": "ambulancesaoilorpath.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529993764191:android:ba132bc3b0d6e9e0eebaea",
+        "android_client_info": {
+          "package_name": "com.example.ambulancesailorpath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529993764191-58208egjb470rr2sm4k3rdd5soasme41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCofrxafHs9DAFYVAe3uoo--1HaQhJfhMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529993764191-58208egjb470rr2sm4k3rdd5soasme41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,7 +22,7 @@ class Items {
   factory Items.fromRawJson(String str) => Items.fromJson(json.decode(str));
 
   String toRawJson() => json.encode(toJson());
-
+   
   factory Items.fromJson(Map<String, dynamic> json) => Items(
         ambulanceno: json["ambulanceno"],
         from: json["from"],
@@ -38,4 +38,9 @@ class Items {
         "mobileno": mobileno,
         "duration": duration,
       };
+      @override
+  String toString() {
+    // TODO: implement toString
+    return super.toString();
+  }
 }

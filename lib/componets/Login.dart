@@ -23,13 +23,12 @@ class _LoginState extends State<Login> {
           c = true;
           Navigator.pop(context);
         });
-    print(1);
+   
     if (!c) return;
-    print(1);
     Provider.of<UserProvider>(context, listen: false)
         .setareaname(ambulaceno);
     Provider.of<UserProvider>(context, listen: false).setguardname(drivername);
-    print(1);
+   
     Navigator.pushNamed(context, '/mainpage');
   }
 
